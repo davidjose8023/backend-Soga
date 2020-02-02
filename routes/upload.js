@@ -96,7 +96,7 @@ function subirPorTipo(tipo, id, nombreArchivo, res){
                 //Elimina la img vieja si existe
                 if(fs.existsSync(pathViejo)){
 
-                    fs.unlink(pathViejo);
+                    fs.unlinkSync(pathViejo);
                 }
 
                 usuario.img = nombreArchivo;
@@ -148,7 +148,7 @@ function subirPorTipo(tipo, id, nombreArchivo, res){
                     //Elimina la img vieja si existe
                     if(fs.existsSync(pathViejo)){
     
-                        fs.unlink(pathViejo);
+                        fs.unlinkSync(pathViejo);
                     }
                     
                     
@@ -203,7 +203,7 @@ function subirPorTipo(tipo, id, nombreArchivo, res){
                     //Elimina la img vieja si existe
                     if(fs.existsSync(pathViejo)){
     
-                        fs.unlink(pathViejo);
+                        fs.unlinkSync(pathViejo);
                     }
                     
                     
@@ -254,7 +254,7 @@ function subirPorTipo(tipo, id, nombreArchivo, res){
                     //Elimina la img vieja si existe
                     if(fs.existsSync(pathViejo)){
     
-                        fs.unlink(pathViejo);
+                        fs.unlinkSync(pathViejo);
                     }
                     
                     
