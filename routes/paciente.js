@@ -16,14 +16,15 @@ pacienteApp.post('/', mdAutenticacion.verificaToken, (req, resp) => {
 
     var paciente = new PacienteModel({
 
-        nombre : body.nombre,
-        apellido: body.apellido,
+        nombres : body.nombres,
+        apellidos: body.apellidos,
         telefono: body.telefono,
         rut: body.rut,
         ec: body.ec,
         email: body.email,
         img: body.img,
-        sexo: body.sexo
+        sexo: body.sexo,
+        usuario: req.usuario._id,
     });
 
     paciente.save((error, pacienteGuardado) =>{
@@ -31,14 +32,14 @@ pacienteApp.post('/', mdAutenticacion.verificaToken, (req, resp) => {
         if(error)
         return resp.status(400).json({
             ok: false,
-            mensaje: `Ocurrio un error al guardar el paciente ${body.nombre}`,
+            mensaje: `Ocurrio un error al guardar el paciente ${body.nombres}`,
             errors: error
 
         });
         return resp.status(200).json({
 
             ok:true,
-            mensaje: `El paciente ${body.nombre} se ha guardado exitosamente`,
+            mensaje: `El paciente ${body.nombres} se ha guardado exitosamente`,
             paciente: pacienteGuardado
 
         });
@@ -66,7 +67,7 @@ pacienteApp.put('/:id', mdAutenticacion.verificaToken, (req, resp) => {
         if(err)
         return resp.status(500).json({
             ok: false,
-            mensaje: `Ocurrio un error al buscar el paciente ${body.nombre}`,
+            mensaje: `Ocurrio un error al buscar el paciente ${body.nombres}`,
             errors: err
         });
 
@@ -77,28 +78,29 @@ pacienteApp.put('/:id', mdAutenticacion.verificaToken, (req, resp) => {
           
         });
  
-        pacienteEncontrado.nombre =  body.nombre;
-        pacienteEncontrado.apellido =  body.apellido;
+        pacienteEncontrado.nombres =  body.nombres;
+        pacienteEncontrado.apellidos =  body.apellidos;
         pacienteEncontrado.telefono = body.telefono;
         pacienteEncontrado.rut = body.rut;
         pacienteEncontrado.ec = body.ec;
         pacienteEncontrado.email = body.email;
         pacienteEncontrado.img = body.img;
         pacienteEncontrado.sexo = body.sexo;
+        pacienteEncontrado.usuario = req.usuario._id;
 
         pacienteEncontrado.save((err, pacienteActualizado) => {
 
             if(err)
             return resp.status(500).json({
                 ok: false,
-                mensaje: `Ocurrio un error al actualizar el paciente ${body.nombre}`,
+                mensaje: `Ocurrio un error al actualizar el paciente ${body.nombres}`,
                 errors: err
             });
 
             return resp.status(200).json({
                 ok: true,
                 paciente:pacienteActualizado,
-                mensaje: `Paciente ${body.nombre} actualizado correctamente`
+                mensaje: `Paciente ${body.nombres} actualizado correctamente`
             });
 
         });
@@ -129,7 +131,7 @@ pacienteApp.delete('/:id',mdAutenticacion.verificaToken, (req, resp) => {
        
         return resp.status(200).json({
             ok: true,
-            mensaje: `Paciente ${pacienteBorrado.nombre} fue eliminado satisfactoriamente`,
+            mensaje: `Paciente ${pacienteBorrado.nombres} fue eliminado satisfactoriamente`,
             paciente: pacienteBorrado
 
         });

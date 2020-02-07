@@ -4,19 +4,19 @@ var uniqueValidator = require('mongoose-unique-validator');
 
 var Schema = mongoose.Schema;
 var ecValidos = {
-    values: ['c', 's','v'],
+    values: ['0','c', 's','v'],
     message: '{VALUE} no es un estado civil valido'
 };
 var sexoValidos = {
-    values: ['f', 'm'],
+    values: ['0','f', 'm'],
     message: '{VALUE} no es un sexo valido'
 };
  
 
 var pacienteSchema = new Schema ({
 
-    nombre : {type: String, required: [true, 'El nombre es requerido'] },
-    apellido : {type: String, required: [true, 'El apellido es requerido'] },
+    nombres : {type: String, required: [true, 'El nombre es requerido'] },
+    apellidos : {type: String, required: [true, 'El apellido es requerido'] },
     telefono : {type: String, required: [true, 'El telefono es requerido'] },
     rut : {type: String, unique: true, required: [true, 'El rut es requerido'] },
     sexo : {type: String, enum: sexoValidos },
