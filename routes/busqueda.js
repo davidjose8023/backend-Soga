@@ -18,7 +18,9 @@ app.get('/todo/:busqueda',(req, res, next) => {
     Promise.all([
         buscarHospitales(regex),
         buscarMedicos(regex),
-        buscarUsuarios(regex)
+        buscarUsuarios(regex),
+        buscarPacientes(regex)
+        
     ]).then(respuesta =>{
 
         res.status(200).json({
@@ -26,7 +28,8 @@ app.get('/todo/:busqueda',(req, res, next) => {
             mensaje: 'Operación Satisfactoria busqueda',
             hospitales: respuesta[0],
             medicos: respuesta[1],
-            usuarios: respuesta[2]
+            usuarios: respuesta[2],
+            pacientes: respuesta[3]
         });
 
     });
@@ -147,7 +150,7 @@ function buscarPacientes(regex){
     return new Promise((resolve, reject)=>{
         
 
-        PacienteModel.find({nombre: regex})
+        PacienteModel.find({nombres: regex})
             .populate('usuario', 'nombre email role')
             .exec( (err, pacientes) => {
 
