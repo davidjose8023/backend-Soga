@@ -20,10 +20,13 @@ var pacienteSchema = new Schema ({
     telefono : {type: String, required: [true, 'El telefono es requerido'] },
     rut : {type: String, unique: true, required: [true, 'El rut es requerido'] },
     sexo : {type: String, enum: sexoValidos },
+    fecha_nacimiento : {type: Date, required: [true, 'La fecha es requerida'] },
+    direccion : {type: String},
     ec : {type: String, enum: ecValidos},
     email : {type: String, unique: true, required: [true, 'El correo es requerido'] },
     img : {type: String },
     usuario: {	type: Schema.Types.ObjectId,	ref: 'Usuario',	required: true },
+    created_at: String
  
 });
 
