@@ -9,6 +9,8 @@ var categoriaSchema = new Schema ({
 
     nombre : {type: String, unique: true, required: [true, 'El nombre es requerido'] },
     descripcion : {type: String },
+    pref : {type: String },
+    enfermedad : [{type: Schema.Types.ObjectId, ref: 'Patologia'}],
     created_at: String
  
 });
