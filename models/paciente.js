@@ -26,6 +26,7 @@ var pacienteSchema = new Schema ({
     email : {type: String, unique: true, required: [true, 'El correo es requerido'] },
     img : {type: String },
     usuario: {	type: Schema.Types.ObjectId,	ref: 'Usuario',	required: true },
+    patologia: [{type: Schema.Types.ObjectId,	ref: 'Patologia'}],
     created_at: String
  
 });
