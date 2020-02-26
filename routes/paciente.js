@@ -24,6 +24,8 @@ pacienteApp.post('/', mdAutenticacion.verificaToken, (req, resp) => {
         email: body.email,
         img: body.img,
         sexo: body.sexo,
+        fecha_nacimiento: body.fecha_nacimiento,
+        patologia: body.patologia,
         usuario: req.usuario._id,
     });
 
@@ -86,6 +88,8 @@ pacienteApp.put('/:id', mdAutenticacion.verificaToken, (req, resp) => {
         pacienteEncontrado.email = body.email;
         pacienteEncontrado.img = body.img;
         pacienteEncontrado.sexo = body.sexo;
+        pacienteEncontrado.fecha_nacimiento = body.fecha_nacimiento;
+        pacienteEncontrado.patologia = body.patologia;
         pacienteEncontrado.usuario = req.usuario._id;
 
         pacienteEncontrado.save((err, pacienteActualizado) => {
