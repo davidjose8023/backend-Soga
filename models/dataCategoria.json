@@ -1,0 +1,237 @@
+{ 
+    "_id" : ObjectId("5e57e6bf3dade711e7bb98d6"), 
+    "nombre" : "Alergias", 
+    "descripcion" : "Causadas por partículas vegetales, alimentos, animales o fármacos que provocan síntomas en la piel y el sistema respiratorio", 
+    "pref" : "alerg", 
+    "enfermedad" : [
+        ObjectId("5e57fd363dade711e7bb98f1"), 
+        ObjectId("5e57fd6d3dade711e7bb98f2"), 
+        ObjectId("5e57fd903dade711e7bb98f3"), 
+        ObjectId("5e57fdc33dade711e7bb98f4"), 
+        ObjectId("5e57fef13dade711e7bb98f6")
+    ], 
+    "created_at" : ISODate("2020-02-27T15:56:47.074+0000")
+}
+{ 
+    "_id" : ObjectId("5e57e7483dade711e7bb98d7"), 
+    "nombre" : "Autoinmunes", 
+    "descripcion" : "Nuestras defensas pueden atacar a nuestros propios órganos o articulaciones si existe algún trastorno en su reconocimiento, causando una enfermedad autoinmune.", 
+    "pref" : "autinm", 
+    "enfermedad" : [
+        ObjectId("5e5801373dade711e7bb98f7"), 
+        ObjectId("5e5801533dade711e7bb98f8"), 
+        ObjectId("5e5801813dade711e7bb98f9"), 
+        ObjectId("5e5801a03dade711e7bb98fa"), 
+        ObjectId("5e58020d3dade711e7bb98fb")
+    ], 
+    "created_at" : ISODate("2020-02-27T15:59:04.642+0000")
+}
+{ 
+    "_id" : ObjectId("5e57e7e33dade711e7bb98d8"), 
+    "nombre" : "Cardiovasculares", 
+    "descripcion" : "Las enfermedades cardiovasculares son la principal causa de muerte. Conoce las más importantes, sus factores de riesgo y cómo detectarlas y prevenirlas.", 
+    "pref" : "cardiov", 
+    "enfermedad" : [
+        ObjectId("5e580b913dade711e7bb992c"), 
+        ObjectId("5e580d5a3dade711e7bb992d"), 
+        ObjectId("5e580d903dade711e7bb992e"), 
+        ObjectId("5e580db53dade711e7bb992f")
+    ], 
+    "created_at" : ISODate("2020-02-27T16:01:39.902+0000")
+}
+{ 
+    "_id" : ObjectId("5e57e9343dade711e7bb98d9"), 
+    "nombre" : "De la Mujer", 
+    "descripcion" : "La anatomía femenina y acontecimientos vitales como el embarazo o la menopausia determinan algunas enfermedades exclusivas de la mujer. Conoce cómo prevenirlas.", 
+    "pref" : "mujer", 
+    "enfermedad" : [
+        ObjectId("5e5811a03dade711e7bb9933"), 
+        ObjectId("5e5811cd3dade711e7bb9934"), 
+        ObjectId("5e5811f23dade711e7bb9935"), 
+        ObjectId("5e58127d3dade711e7bb9936")
+    ], 
+    "created_at" : ISODate("2020-02-27T16:07:16.683+0000")
+}
+{ 
+    "_id" : ObjectId("5e57e96c3dade711e7bb98da"), 
+    "nombre" : "Piel", 
+    "descripcion" : "Algunas patologías o la exposición de la dermis a diversos agentes externos pueden provocar daños y enfermedades de la piel con graves consecuencias.", 
+    "pref" : "piel", 
+    "enfermedad" : [
+        ObjectId("5e58147f3dade711e7bb9938"), 
+        ObjectId("5e5814dd3dade711e7bb9939"), 
+        ObjectId("5e58187b3dade711e7bb994c"), 
+        ObjectId("5e58189c3dade711e7bb994d")
+    ], 
+    "created_at" : ISODate("2020-02-27T16:08:12.668+0000")
+}
+{ 
+    "_id" : ObjectId("5e57ea9e3dade711e7bb98dc"), 
+    "nombre" : "De la Sangre", 
+    "descripcion" : "Los glóbulos rojos, los blancos y las plaquetas pueden generar diversas enfermedades hematológicas cuando su calidad o su cantidad se encuentran alteradas.", 
+    "pref" : "sangre", 
+    "enfermedad" : [
+
+    ], 
+    "created_at" : ISODate("2020-02-27T16:13:18.328+0000")
+}
+{ 
+    "_id" : ObjectId("5e57eb0d3dade711e7bb98dd"), 
+    "nombre" : "De Riñón", 
+    "descripcion" : "Varias enfermedades pueden deteriorar los riñones hasta el punto de impedirles realizar su función, consistente en filtrar y eliminar desechos del organismo.", 
+    "pref" : "rinon", 
+    "enfermedad" : [
+
+    ], 
+    "created_at" : ISODate("2020-02-27T16:15:09.441+0000")
+}
+{ 
+    "_id" : ObjectId("5e57eb603dade711e7bb98de"), 
+    "nombre" : "Endocrinas", 
+    "descripcion" : "Los trastornos metabólicos, que modifican el correcto funcionamiento del organismo, pueden pasar inadvertidos. Aprende a identificar las enfermedades endocrinas.", 
+    "pref" : "endoc", 
+    "enfermedad" : [
+
+    ], 
+    "created_at" : ISODate("2020-02-27T16:16:32.946+0000")
+}
+{ 
+    "_id" : ObjectId("5e57eb993dade711e7bb98df"), 
+    "nombre" : "Digestivas", 
+    "descripcion" : "Al aparato digestivo pueden afectarle enfermedades de la boca, esófago y páncreas, cólicos, estreñimiento, hemorroides u otras patologías intestinales.", 
+    "pref" : "digest", 
+    "enfermedad" : [
+
+    ], 
+    "created_at" : ISODate("2020-02-27T16:17:29.953+0000")
+}
+{ 
+    "_id" : ObjectId("5e57ebd23dade711e7bb98e0"), 
+    "nombre" : "Genéticas", 
+    "descripcion" : "Agrupamos enfermedades cuya característica principal es la herencia genética, debidas en su mayoría a mutaciones o alteraciones, que se transmiten a los hijos.", 
+    "pref" : "genet", 
+    "enfermedad" : [
+
+    ], 
+    "created_at" : ISODate("2020-02-27T16:18:26.971+0000")
+}
+{ 
+    "_id" : ObjectId("5e57ebf63dade711e7bb98e1"), 
+    "nombre" : "Infecciosas", 
+    "descripcion" : "Conocer las fuentes de contagio y los mecanismos por los que se producen las enfermedades infecciosas puede ayudar a evitarlas, detectarlas y combatirlas.", 
+    "pref" : "infec", 
+    "enfermedad" : [
+
+    ], 
+    "created_at" : ISODate("2020-02-27T16:19:02.475+0000")
+}
+{ 
+    "_id" : ObjectId("5e57ecac3dade711e7bb98e2"), 
+    "nombre" : "Mentales", 
+    "descripcion" : "Las enfermedades mentales describen la pérdida de la capacidad de ser conscientes de nuestros propios actos o una actitud anormal ante el entorno y uno mismo. ", 
+    "pref" : "menta", 
+    "enfermedad" : [
+
+    ], 
+    "created_at" : ISODate("2020-02-27T16:22:04.431+0000")
+}
+{ 
+    "_id" : ObjectId("5e57ecdc3dade711e7bb98e3"), 
+    "nombre" : "Neurólogicas", 
+    "descripcion" : "Cuando las conexiones entre el cerebro y los nervios periféricos sufren alteraciones en su funcionamiento se producen las enfermedades neurológicas.", 
+    "pref" : "neuro", 
+    "enfermedad" : [
+
+    ], 
+    "created_at" : ISODate("2020-02-27T16:22:52.879+0000")
+}
+{ 
+    "_id" : ObjectId("5e57ed2c3dade711e7bb98e4"), 
+    "nombre" : "Osteomusculares", 
+    "descripcion" : "Las enfermedades osteomusculares, aquellas alteraciones de las articulaciones, huesos o músculos que se traducen en lesiones, son motivo frecuente de consulta.", 
+    "pref" : "osteomu", 
+    "enfermedad" : [
+
+    ], 
+    "created_at" : ISODate("2020-02-27T16:24:12.392+0000")
+}
+{ 
+    "_id" : ObjectId("5e57ed7e3dade711e7bb98e5"), 
+    "nombre" : "Pediátricas", 
+    "descripcion" : "Aprende a reconocer los síntomas de las enfermedades pediátricas más frecuentes (como las infecciones causadas por virus y bacterias) y cómo prevenirlas.", 
+    "pref" : "pediat", 
+    "enfermedad" : [
+
+    ], 
+    "created_at" : ISODate("2020-02-27T16:25:34.089+0000")
+}
+{ 
+    "_id" : ObjectId("5e57edb13dade711e7bb98e6"), 
+    "nombre" : "Raras", 
+    "descripcion" : "Existen más de 7.000 enfermedades raras, que son aquellas con una incidencia muy baja en la población general, en torno a 5 de cada 10.000 habitantes.", 
+    "pref" : "raras", 
+    "enfermedad" : [
+
+    ], 
+    "created_at" : ISODate("2020-02-27T16:26:25.290+0000")
+}
+{ 
+    "_id" : ObjectId("5e57ee1c3dade711e7bb98e7"), 
+    "nombre" : "Urológicas", 
+    "descripcion" : "Las enfermedades urológicas se refieren a los trastornos de la vía urinaria, desde el riñón, uréter, vejiga y uretra, o los que alteran la función sexual.", 
+    "pref" : "urol", 
+    "enfermedad" : [
+
+    ], 
+    "created_at" : ISODate("2020-02-27T16:28:12.436+0000")
+}
+{ 
+    "_id" : ObjectId("5e57ee503dade711e7bb98e8"), 
+    "nombre" : "Reumáticas", 
+    "descripcion" : "Hay alrededor de 250 enfermedades reumáticas. Aprende a identificar sus síntomas, ya que un diagnóstico y tratamiento precoz mejoran la calidad de vida.", 
+    "pref" : "reuma", 
+    "enfermedad" : [
+
+    ], 
+    "created_at" : ISODate("2020-02-27T16:29:04.052+0000")
+}
+{ 
+    "_id" : ObjectId("5e57ee8b3dade711e7bb98e9"), 
+    "nombre" : "De Embarazo", 
+    "descripcion" : "Algunos problemas del embarazo no deben pasar desapercibidos puesto que pueden conllevar riesgo para el futuro bebé y para la madre. Aprende a identificarlos.", 
+    "pref" : "embar", 
+    "enfermedad" : [
+
+    ], 
+    "created_at" : ISODate("2020-02-27T16:30:03.525+0000")
+}
+{ 
+    "_id" : ObjectId("5e57eeaf3dade711e7bb98ea"), 
+    "nombre" : "De Oído", 
+    "descripcion" : "La salud auditiva se puede ver afectada por enfermedades, malformaciones y el envejecimiento. Conoce el diagnóstico y tratamiento de diversos problemas del oído.", 
+    "pref" : "oido", 
+    "enfermedad" : [
+
+    ], 
+    "created_at" : ISODate("2020-02-27T16:30:39.429+0000")
+}
+{ 
+    "_id" : ObjectId("5e57eedb3dade711e7bb98eb"), 
+    "nombre" : "Cáncer", 
+    "descripcion" : "El cáncer es la segunda causa de muerte en el mundo occidental. Conoce los tumores existentes, sus factores de riesgo asociados y las armas para vencerlo.", 
+    "pref" : "cancer", 
+    "enfermedad" : [
+
+    ], 
+    "created_at" : ISODate("2020-02-27T16:31:23.951+0000")
+}
+{ 
+    "_id" : ObjectId("5e57ef353dade711e7bb98ec"), 
+    "nombre" : "Urgencias Medicas", 
+    "descripcion" : "Accidentes, intoxicaciones, traumatismos… saber cómo actuar si eres víctima o testigo de una urgencia médica puede significar la diferencia entre la vida y la muerte del afectado.", 
+    "pref" : "urgmedic", 
+    "enfermedad" : [
+
+    ], 
+    "created_at" : ISODate("2020-02-27T16:32:53.327+0000")
+}
