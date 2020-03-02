@@ -4,39 +4,39 @@
     "nombre" : "Alergia al níquel", 
     "descripcion" : "El níquel, presente en utensilios, botones y bisutería, es el metal que produce alergia con más frecuencia. Conoce los síntomas de la alergia al níquel, que se manifiestan en la piel en forma de eczemas y dermatitis", 
     "categoria" : ObjectId("5e57e6bf3dade711e7bb98d6"), 
-    "created_at" : ISODate("2020-02-27T17:32:38.613+0000"), 
+    "created_at" : new Date, 
     "_id" : ObjectId("5e57fd363dade711e7bb98f1")
 }
-// Newly added document
+ 
 { 
     "nombre" : "Alergia al sol", 
     "descripcion" : "La erupción polimorfa lumínica es conocida como alergia al sol porque sucede al exponerse a la luz solar y sus síntomas son similares a los de una reacción alérgica. Te explicamos sus síntomas y tratamiento.", 
     "categoria" : ObjectId("5e57e6bf3dade711e7bb98d6"), 
-    "created_at" : ISODate("2020-02-27T17:33:33.222+0000"), 
+    "created_at" : new Date, 
     "_id" : ObjectId("5e57fd6d3dade711e7bb98f2")
 }
-// Newly added document
+ 
 { 
     "nombre" : "Congestión nasal", 
     "descripcion" : "Cuando la nariz está taponada es necesario respirar por la boca, lo que facilita la entrada de gérmenes patógenos y reseca la garganta. Aquí tienes algunos consejos que te ayudarán a aliviar la congestión nasal.", 
     "categoria" : ObjectId("5e57e6bf3dade711e7bb98d6"), 
-    "created_at" : ISODate("2020-02-27T17:34:08.783+0000"), 
+    "created_at" : new Date, 
     "_id" : ObjectId("5e57fd903dade711e7bb98f3")
 }
-// Newly added document
+
 { 
     "nombre" : "Rinitis", 
     "descripcion" : "En función de qué tipo de rinitis padezcas (alérgica, hormonal, atrófica, vasomotora) dispones de varias alternativas para luchar contra sus molestias. Aprende a identificarla para poder tratarla con mayor eficacia.", 
     "categoria" : ObjectId("5e57e6bf3dade711e7bb98d6"), 
-    "created_at" : ISODate("2020-02-27T17:34:59.734+0000"), 
+    "created_at" : new Date,
     "_id" : ObjectId("5e57fdc33dade711e7bb98f4")
 }
-// Newly added document
+
 { 
     "nombre" : "Medicamentos", 
     "descripcion" : "Todos los medicamentos pueden causar reacciones alérgicas de diversa intensidad. Reconocer sus síntomas y saber cómo actuar ayuda a evitar complicaciones graves como el shock anafiláctico.", 
     "categoria" : ObjectId("5e57e6bf3dade711e7bb98d6"), 
-    "created_at" : ISODate("2020-02-27T17:40:01.227+0000"), 
+    "created_at" : new Date,
     "_id" : ObjectId("5e57fef13dade711e7bb98f6")
 }
 
@@ -48,36 +48,37 @@
     "nombre" : "Artritis reumatoide", 
     "descripcion" : "No se conoce la causa de esta enfermedad crónica, que afecta a las articulaciones provocando inflamación y dolor. Aunque no se puede prevenir, seguir algunas recomendaciones puede aliviar los síntomas de la artritis reumatoide", 
     "categoria" : ObjectId("5e57e7483dade711e7bb98d7"), 
-    "created_at" : ISODate("2020-02-27T17:49:43.244+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e5801533dade711e7bb98f8"), 
     "nombre" : "Celiaquía", 
     "descripcion" : "Casi tres de cada cuatro personas con celiaquía no saben que padecen este trastorno digestivo, y no seguir una dieta libre de gluten puede dañar seriamente su salud. Conoce cómo identificarla y qué alimentos debes evitar.", 
     "categoria" : ObjectId("5e57e7483dade711e7bb98d7"), 
-    "created_at" : ISODate("2020-02-27T17:50:11.197+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e5801813dade711e7bb98f9"), 
     "nombre" : "Vitíligo", 
     "descripcion" : "Las manchas claras en la piel características del vitíligo suelen tener una gran repercusión psicosocial en aquellos que las padecen. Aunque no existe cura para esta afección, hay tratamientos con buenos resultados. Conócelos.", 
     "categoria" : ObjectId("5e57e7483dade711e7bb98d7"), 
-    "created_at" : ISODate("2020-02-27T17:50:57.429+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e5801a03dade711e7bb98fa"), 
     "nombre" : "Lupus", 
     "descripcion" : "Cinco millones de personas en el mundo, cerca de 75.000 españoles, en su gran mayoría mujeres, padecen lupus, una enfermedad autoinmune crónica que tiene graves consecuencias discapacitantes.", 
     "categoria" : ObjectId("5e57e7483dade711e7bb98d7"), 
-    "created_at" : ISODate("2020-02-27T17:51:28.294+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e58020d3dade711e7bb98fb"), 
     "nombre" : "Enfermedad de Crohn", 
     "descripcion" : "Este trastorno intestinal de tipo autoinmune suele diagnosticarse antes de los 30 años. Aunque no se conocen las causas de la Enfermedad de Crohn, sí los fármacos, alimentos y hábitos que te ayudarán a controlar sus molestias.", 
     "categoria" : ObjectId("5e57e7483dade711e7bb98d7"), 
-    "created_at" : ISODate("2020-02-27T17:53:17.247+0000")
+    "created_at" : new Date
 }
+    
 
 //Categoria Cardiovasculares
 
@@ -86,28 +87,28 @@
     "nombre" : "Aneurisma", 
     "descripcion" : "Controlar los factores de riesgo, como la obesidad o la hipertensión, es fundamental para evitar la aparición de un aneurisma, una dilatación de un vaso sanguíneo que puede llegar a ocasionar su ruptura.", 
     "categoria" : ObjectId("5e57e7e33dade711e7bb98d8"), 
-    "created_at" : ISODate("2020-02-27T18:33:53.851+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e580d5a3dade711e7bb992d"), 
     "nombre" : "Varices", 
     "descripcion" : "Además de resultar antiestéticas, las varices pueden ocasionar diversos síntomas y dar lugar a complicaciones. Lo mejor, sobre todo si tienes factores de riesgo, es tomar medidas para prevenir su aparición.", 
     "categoria" : ObjectId("5e57e7e33dade711e7bb98d8"), 
-    "created_at" : ISODate("2020-02-27T18:41:30.722+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e580d903dade711e7bb992e"), 
     "nombre" : "Insuficiencia cardíaca", 
     "descripcion" : "Cualquier enfermedad que dañe el corazón puede debilitarlo de tal forma que le impida realizar correctamente su función de bombeo de la sangre. Aprende a evitar las causas de la insuficiencia cardiaca y controlar esta frecuente enfermedad crónica.", 
     "categoria" : ObjectId("5e57e7e33dade711e7bb98d8"), 
-    "created_at" : ISODate("2020-02-27T18:42:24.330+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e580db53dade711e7bb992f"), 
     "nombre" : "Hipertensión arterial", 
     "descripcion" : "La hipertensión arterial es el principal factor de riesgo cardiovascular: afecta a casi la mitad de los hombres y a cuatro de cada diez mujeres. Te contamos como mantenerla bajo control y cómo se puede prevenir.", 
     "categoria" : ObjectId("5e57e7e33dade711e7bb98d8"), 
-    "created_at" : ISODate("2020-02-27T18:43:01.115+0000")
+    "created_at" : new Date
 }
 
 // categoria la mujer
@@ -117,28 +118,28 @@
     "nombre" : "Inflamatoria pélvica", 
     "descripcion" : "La enfermedad inflamatoria pélvica, muy frecuente en la mujer en edad reproductiva, se asocia a infecciones que se adquieren por vía sexual y puede producir secuelas graves como dolor pélvico crónico e infertilidad.", 
     "categoria" : ObjectId("5e57e9343dade711e7bb98d9"), 
-    "created_at" : ISODate("2020-02-27T18:59:44.418+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e5811cd3dade711e7bb9934"), 
     "nombre" : "Atrofia vaginal", 
     "descripcion" : "La atrofia vaginal o vaginitis atrófica –muy frecuente en mujeres postmenopáusicas–, provoca sequedad e inflamación de la vagina. Conoce sus causas y, sobre todo, qué puedes hacer para aliviar sus síntomas.", 
     "categoria" : ObjectId("5e57e9343dade711e7bb98d9"), 
-    "created_at" : ISODate("2020-02-27T19:00:29.025+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e5811f23dade711e7bb9935"), 
     "nombre" : "Incontinencia urinaria", 
     "descripcion" : "Se estima que la incontinencia urinaria –pérdida involuntaria de orina– afecta a un 30% de las mujeres adultas. Fortalecer los músculos del suelo pélvico es la mejor forma de contrarrestar las contracciones involuntarias de la vejiga.", 
     "categoria" : ObjectId("5e57e9343dade711e7bb98d9"), 
-    "created_at" : ISODate("2020-02-27T19:01:06.076+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e58127d3dade711e7bb9936"), 
     "nombre" : "Cáncer de mama", 
     "descripcion" : "Una de cada ocho mujeres desarrollará un cáncer de mama a lo largo de su vida. Un diagnóstico precoz, gracias a la mamografía, mejora la eficacia del tratamiento y el pronóstico de la enfermedad.", 
     "categoria" : ObjectId("5e57e9343dade711e7bb98d9"), 
-    "created_at" : ISODate("2020-02-27T19:03:25.045+0000")
+    "created_at" : new Date
 }
 
 
@@ -149,26 +150,26 @@
     "nombre" : "Dermatitis atópica", 
     "descripcion" : "En esta afección crónica de la piel se alternan etapas de mejoría con otras en las que los brotes son frecuentes. Te ofrecemos algunas recomendaciones para minimizar las molestias que ocasiona la dermatitis atópica.", 
     "categoria" : ObjectId("5e57e96c3dade711e7bb98da"), 
-    "created_at" : ISODate("2020-02-27T19:11:59.428+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e5814dd3dade711e7bb9939"), 
     "nombre" : "Esclerodermia", 
     "descripcion" : "La esclerodermia es una enfermedad autoinmune que se caracteriza por el engrosamiento y endurecimiento de la piel, aunque también puede afectar a diversos órganos internos. Conoce cómo tratarla.", 
     "categoria" : ObjectId("5e57e96c3dade711e7bb98da"), 
-    "created_at" : ISODate("2020-02-27T19:13:33.701+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e58187b3dade711e7bb994c"), 
     "nombre" : "Herpes", 
     "descripcion" : "Tras una primera infección, el virus herpes permanece de forma inactiva en el cuerpo humano y se reactiva en ciertas situaciones, como otras infecciones, menstruación, estrés, cambios de temperatura…", 
     "categoria" : ObjectId("5e57e96c3dade711e7bb98da"), 
-    "created_at" : ISODate("2020-02-27T19:28:59.046+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e58189c3dade711e7bb994d"), 
     "nombre" : "Acné", 
     "descripcion" : "El acné puede convertirse en una pesadilla para los adolescentes porque es una afección antiestética, frecuente en esta etapa de la vida. Aunque también puede aparecer en la edad adulta. Conoce cómo se trata.", 
     "categoria" : ObjectId("5e57e96c3dade711e7bb98da"), 
-    "created_at" : ISODate("2020-02-27T19:29:32.319+0000")
+    "created_at" : new Date
 }

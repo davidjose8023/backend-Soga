@@ -10,7 +10,7 @@
         ObjectId("5e57fdc33dade711e7bb98f4"), 
         ObjectId("5e57fef13dade711e7bb98f6")
     ], 
-    "created_at" : ISODate("2020-02-27T15:56:47.074+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e57e7483dade711e7bb98d7"), 
@@ -24,7 +24,7 @@
         ObjectId("5e5801a03dade711e7bb98fa"), 
         ObjectId("5e58020d3dade711e7bb98fb")
     ], 
-    "created_at" : ISODate("2020-02-27T15:59:04.642+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e57e7e33dade711e7bb98d8"), 
@@ -37,7 +37,7 @@
         ObjectId("5e580d903dade711e7bb992e"), 
         ObjectId("5e580db53dade711e7bb992f")
     ], 
-    "created_at" : ISODate("2020-02-27T16:01:39.902+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e57e9343dade711e7bb98d9"), 
@@ -50,7 +50,7 @@
         ObjectId("5e5811f23dade711e7bb9935"), 
         ObjectId("5e58127d3dade711e7bb9936")
     ], 
-    "created_at" : ISODate("2020-02-27T16:07:16.683+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e57e96c3dade711e7bb98da"), 
@@ -63,7 +63,7 @@
         ObjectId("5e58187b3dade711e7bb994c"), 
         ObjectId("5e58189c3dade711e7bb994d")
     ], 
-    "created_at" : ISODate("2020-02-27T16:08:12.668+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e57ea9e3dade711e7bb98dc"), 
@@ -73,7 +73,7 @@
     "enfermedad" : [
 
     ], 
-    "created_at" : ISODate("2020-02-27T16:13:18.328+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e57eb0d3dade711e7bb98dd"), 
@@ -83,7 +83,7 @@
     "enfermedad" : [
 
     ], 
-    "created_at" : ISODate("2020-02-27T16:15:09.441+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e57eb603dade711e7bb98de"), 
@@ -93,7 +93,7 @@
     "enfermedad" : [
 
     ], 
-    "created_at" : ISODate("2020-02-27T16:16:32.946+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e57eb993dade711e7bb98df"), 
@@ -103,7 +103,7 @@
     "enfermedad" : [
 
     ], 
-    "created_at" : ISODate("2020-02-27T16:17:29.953+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e57ebd23dade711e7bb98e0"), 
@@ -113,7 +113,7 @@
     "enfermedad" : [
 
     ], 
-    "created_at" : ISODate("2020-02-27T16:18:26.971+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e57ebf63dade711e7bb98e1"), 
@@ -123,7 +123,7 @@
     "enfermedad" : [
 
     ], 
-    "created_at" : ISODate("2020-02-27T16:19:02.475+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e57ecac3dade711e7bb98e2"), 
@@ -133,7 +133,7 @@
     "enfermedad" : [
 
     ], 
-    "created_at" : ISODate("2020-02-27T16:22:04.431+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e57ecdc3dade711e7bb98e3"), 
@@ -143,7 +143,7 @@
     "enfermedad" : [
 
     ], 
-    "created_at" : ISODate("2020-02-27T16:22:52.879+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e57ed2c3dade711e7bb98e4"), 
@@ -153,7 +153,7 @@
     "enfermedad" : [
 
     ], 
-    "created_at" : ISODate("2020-02-27T16:24:12.392+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e57ed7e3dade711e7bb98e5"), 
@@ -163,7 +163,7 @@
     "enfermedad" : [
 
     ], 
-    "created_at" : ISODate("2020-02-27T16:25:34.089+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e57edb13dade711e7bb98e6"), 
@@ -173,7 +173,7 @@
     "enfermedad" : [
 
     ], 
-    "created_at" : ISODate("2020-02-27T16:26:25.290+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e57ee1c3dade711e7bb98e7"), 
@@ -183,7 +183,7 @@
     "enfermedad" : [
 
     ], 
-    "created_at" : ISODate("2020-02-27T16:28:12.436+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e57ee503dade711e7bb98e8"), 
@@ -193,7 +193,7 @@
     "enfermedad" : [
 
     ], 
-    "created_at" : ISODate("2020-02-27T16:29:04.052+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e57ee8b3dade711e7bb98e9"), 
@@ -203,7 +203,7 @@
     "enfermedad" : [
 
     ], 
-    "created_at" : ISODate("2020-02-27T16:30:03.525+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e57eeaf3dade711e7bb98ea"), 
@@ -213,7 +213,7 @@
     "enfermedad" : [
 
     ], 
-    "created_at" : ISODate("2020-02-27T16:30:39.429+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e57eedb3dade711e7bb98eb"), 
@@ -223,7 +223,7 @@
     "enfermedad" : [
 
     ], 
-    "created_at" : ISODate("2020-02-27T16:31:23.951+0000")
+    "created_at" : new Date
 }
 { 
     "_id" : ObjectId("5e57ef353dade711e7bb98ec"), 
@@ -233,5 +233,5 @@
     "enfermedad" : [
 
     ], 
-    "created_at" : ISODate("2020-02-27T16:32:53.327+0000")
+    "created_at" : new Date
 }
