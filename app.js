@@ -59,6 +59,7 @@ var uploadRoutes = require('./routes/upload');
 var imgRoutes = require('./routes/imagenes');
 var pacienteRoutes = require('./routes/paciente');
 var enfermedadRoutes = require('./routes/enfermedad');
+var citaRoutes = require('./routes/citamedica');
 
 
 //Rutas
@@ -72,6 +73,7 @@ app.use('/upload', uploadRoutes);
 app.use('/img', imgRoutes);
 app.use('/paciente', pacienteRoutes);
 app.use('/enfermedad', enfermedadRoutes);
+app.use('/cita', citaRoutes);
 app.use('/', appRoutes);
 
 
