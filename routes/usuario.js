@@ -220,7 +220,7 @@ function obtenerMenu( ROLE ){
             {titulo : 'Dashboard', url : '/dashboard'},
             {titulo : 'ProgressBar', url : '/progress'},
             {titulo : 'Gráficas', url : '/graficas1'},
-            {titulo : 'Citas Médicas', url : '/citas'},
+            {titulo : 'Agenda Médica', url : '/agenda'},
             {titulo : 'Historial Médico', url : '/hitorial'}
             //{titulo : 'Promesas', url : '/promesas'},
             //{titulo : 'Rxjs', url : '/rxjs'}

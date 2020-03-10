@@ -12,6 +12,7 @@ var CitaSchema = new Schema ({
     telefono : {type: String, required: [true, 'El telefono es requerido'] },
     rut : {type: String, unique: true, required: [true, 'El rut es requerido'] },
     email : {type: String, unique: true },
+    classname : {type: String},
     usuario: {	type: Schema.Types.ObjectId,	ref: 'Usuario'},
     medico: { type: Schema.Types.ObjectId,	ref: 'Medico'},
     start : {type: Date, required: [true, 'La fecha inicio es requerida'] },
