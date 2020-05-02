@@ -13,6 +13,11 @@ pacienteApp.post('/', mdAutenticacion.verificaToken, (req, resp) => {
 
 
     var body = req.body;
+    let arrayPatologia= [];
+
+    body.patologia.forEach(element => {
+        arrayPatologia.push(element._id);
+    });
 
     var paciente = new PacienteModel({
 
@@ -25,7 +30,8 @@ pacienteApp.post('/', mdAutenticacion.verificaToken, (req, resp) => {
         img: body.img,
         sexo: body.sexo,
         fecha_nacimiento: body.fecha_nacimiento,
-        patologia: body.patologia,
+        patologia: arrayPatologia,
+        //patologia: body.patologia,
         usuario: req.usuario._id,
     });
 
@@ -200,7 +206,9 @@ pacienteApp.get('/:id', (req, resp) => {
 
     var id = req.params.id;
 
-    PacienteModel.findById(id, (err, paciente)=>{
+    PacienteModel.findById(id)
+        .populate('patologia')
+        .exec((err, paciente)=>{
 
         if(err)
         return resp.status(500).json({

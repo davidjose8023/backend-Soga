@@ -91,6 +91,10 @@ app.post('/',mdAutenticacion.verificaToken, (req, res, next) => {
 
     var medico = new Medico({
         nombre: body.nombre,
+        apellido: body.apellido,
+        telefono: body.telefono,
+        email: body.email,
+        especialidad: body.especialidad,
         img: body.img,
         usuario: req.usuario._id,
         hospital: body.hospital
@@ -145,6 +149,10 @@ app.put('/:id',mdAutenticacion.verificaToken, (req, res) => {
         });
 
         medico.nombre = body.nombre;
+        medico.apellido = body.apellido;
+        medico.telefono = body.telefono;
+        medico.email = body.email;
+        medico.especialidad = body.especialidad;
         medico.hospital   = body.hospital;
         medico.usuario = req.usuario._id;
 
